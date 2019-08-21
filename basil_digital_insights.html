@@ -36,7 +36,7 @@
     <header id="header">
         <div class="container">
             <div id="logo" class="pull-left">
-                <a href="#hero">
+                <a href="index.html">
                     <img src="img/logo_basil.png" alt="" title="" />
                     </img>
                 </a>
@@ -46,19 +46,19 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu">
-                        <a href="#hero">Home</a>
+                        <a href="index.html#hero">Home</a>
                     </li>
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href="index.html#about">About Us</a>
                     </li>
                     <li>
-                        <a href="#services">The Data</a>
+                        <a href="index.html#services">The Data</a>
                     </li>
                     <li class="menu-has-children">
-                        <a href="">Our Solutions</a>
+                        <a id="our_solutions">Our Solutions</a>
                         <ul>
                             <li>
-                                <a href="#portfolio">All Solutions</a>
+                                <a href="index.html#portfolio">All Solutions</a>
                             </li>
 <!--                             <li class="menu-has-children">
                                 <a href="#">Drop Down 2</a>
@@ -106,15 +106,18 @@
     <!--==========================
     Hero Section
   ============================-->
-    <section id="hero">
+    <section id="hero" style="background: url(img/cover_digital.png) top center;background-size: contain; background-repeat: no-repeat;
+    position: relative;width: 100%;
+    height: 74vh;background-attachment: fixed;
+}">
         <div class="hero-container">
-            <div class="container" style="margin-top: 10%; padding-left: 10%; padding-right: 10%;">
+            <div class="container" style="padding: 30px 5%; background-color: rgba(18, 61, 84, 0.65);border-radius: 30px;border: .3px solid #ffffff;">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>Who your customers are.</h1>
+                        <h1 style="font-size: 3.2em;line-height: 1.02em; font-family: Montserrat">Basil Digital Insights</h1>
                     </div>
                     <div class="col-md-6">
-                        <h2 style="font-size: 20px;">Basil Labs helps your organization understand your consumers, innovate and outpace the competition.</h2>
+                        <h2 style="font-size: 1.3em;">Basil Labs helps your organization understand your consumers, innovate and outpace the competition.</h2>
                     </div>
                 </div>
             </div>
@@ -154,7 +157,42 @@
                             <p class="description">Monitor consumer indicators about your business as well as your competitors' locations.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+                    <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="background: url(img/portfolio/youtube_v2.png);margin-bottom: 10px;
+    background-size: contain;min-height: 300px;background-position: center center;"></div>
+                </div>
+            </div>
+
+
+            <div class="container" style="padding-top: 100px;">
+                <div class="row about-container">
+                    <div class="col-lg-6 content order-lg-2 order-2">
+                        <h2 class="title">Decisive solutions for your organization</h2>
+                        <p>
+                            Find new wisdom, listen proactively, and bridge the gap between your consumers and your organization. </p>
+                        <div class="icon-box wow fadeInUp">
+                            <div class="icon">
+                                <i class="fa fa-superpowers"></i>
+                            </div>
+                            <h4 class="title"><a href="">Consumer narratives</a></h4>
+                            <p class="description">Tap into consumer narratives about your business, across all your locations, year-by-year or month-by-month.</p>
+                        </div>
+                        <div class="icon-box wow fadeInUp">
+                            <div class="icon">
+                                <i class="fa fa-spinner"></i>
+                            </div>
+                            <h4 class="title"><a href="">Segmentations</a></h4>
+                            <p class="description">Leverage customer segmentations, by spending patterns, shopping preferences, modes of transportation, and geographies.</p>
+                        </div>
+                        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="icon">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <h4 class="title"><a href="">Indicators</a></h4>
+                            <p class="description">Monitor consumer indicators about your business as well as your competitors' locations.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 background order-lg-1 order-1 wow fadeInLeft" style="background: url(img/portfolio/amazon.png) center top no-repeat;margin-bottom: 10px;
+    background-size: contain;min-height: 300px;"></div>
                 </div>
             </div>
         </section>
@@ -226,147 +264,12 @@
                             <p class="description">Understand the types of consumers your organization has as well as where else they shop and spend time, as well as what other kinds of products and services they purchase.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="box">
-                            <div class="icon">
-                                <a href=""><i class="fa fa-globe"></i></a>
-                            </div>
-                            <h4 class="title"><a href="">Geographies</a></h4>
-                            <p class="description">Check where your customers shop, spend time, and travel to within the United States as well as around the globe.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="box">
-                            <div class="icon">
-                                <a href=""><i class="fa fa-pie-chart"></i></a>
-                            </div>
-                            <h4 class="title"><a href="">Digital segmentations</a></h4>
-                            <p class="description">Identify and cluster digital consumer types, on Youtube, Instagram and other social media, pinpointing the exact area of the market to enter and with what content.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="box">
-                            <div class="icon">
-                                <a href=""><i class="fa fa-object-group"></i></a>
-                            </div>
-                            <h4 class="title"><a href="">Digital reactions</a></h4>
-                            <p class="description">Analyze topic and narrative popularity, clustering, and user reaction across reviews, social media and Youtube.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- #services -->
-        <!--==========================
-    Call To Action Section
-    ============================-->
-        <section id="call-to-action">
-            <div class="container wow fadeIn">
-                <div class="row">
-                    <div class="col-lg-9 text-center text-lg-left">
-                        <h3 class="cta-title">Tap into the data that's all around us..</h3>
-                        <p class="cta-text">Everyday we generate data in the form of reviews, social media posts and comments, and market research has only begun to tap into its potential. At Basil Labs, we extract actionable insights from these millions of datapoints to help your organization better understand your market and competition.</p>
-                    </div>
-                    <div class="col-lg-3 cta-btn-container text-center">
-                        <!--                         <a class="cta-btn align-middle" href="#">Contact</a>  -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- #call-to-action -->
-        <!--==========================
-      Portfolio Section
-    ============================-->
-        <section id="portfolio">
-            <div class="container wow fadeInUp">
-                <div class="section-header">
-                    <h3 class="section-title">Our Solutions</h3>
-                    <p class="section-description">Analytics to build around your consumers, viewers and competition.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul id="portfolio-flters">
-                            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-                            <li data-filter=".filter-app">Retail & Real Estate</li>
-                            <li data-filter=".filter-card">Online Markets & Marketing</li>
-                            <li data-filter=".filter-logo">Politics</li>
-                            <!--                             <li data-filter=".filter-web">Web</li>    -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="row" id="portfolio-wrapper">
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-                        <a href="">
-                            <img src="img/portfolio/retail_narrative.png" style="background-size:contain;">
-                            <div class="details">
-                                <h4>Retail Narrative Insights</h4>
-                                <span>Retail Consumer Insight Tool</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-                        <a href="">
-                            <img src="img/portfolio/amazon.png" alt="">
-                            <div class="details">
-                                <h4>Amazon Consumer Segmentation</h4>
-                                <span>Basil Digital Insights</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-                        <a href="">
-                            <img src="img/portfolio/ella_visualizer.png" alt="">
-                            <div class="details">
-                                <h4>Ella Visualizer</h4>
-                                <span>Location Product Visualizer</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-                        <a href="">
-                            <img src="img/portfolio/retail_geographic.png" alt="">
-                            <div class="details">
-                                <h4>Retail Geographic Insights</h4>
-                                <span>Retail Consumer Insights</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-                        <a href="">
-                            <img src="img/portfolio/consumer_segmentation.png" alt="">
-                            <div class="details">
-                                <h4>YouTube Viewer Tapestry</h4>
-                                <span>Basil Digital Insights</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-                        <a href="">
-                            <img src="img/portfolio/pac_narrative.png" alt="">
-                            <div class="details">
-                                <h4>PAC Narrative Signals</h4>
-                                <span>PAC Candidate Tapestry</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-                        <a href="">
-                            <img src="img/portfolio/pac_financial.png" alt="">
-                            <div class="details">
-                                <h4>PAC Financial Insights</h4>
-                                <span>PAC Candidate Tapestry</span>
-                            </div>
-                        </a>
-                    </div>
 
                 </div>
             </div>
         </section>
-        <!-- #portfolio -->
-        <!--==========================
-      Team Section
-    ============================-->
-        <!-- #team -->
+        <!-- #services -->
+
         <!--==========================
       Contact Section
     ============================-->
@@ -394,13 +297,13 @@
             <div class="footer-left">
 
                 <p class="footer-links">
-                    <a href="#hero">HOME</a>
+                    <a href="index.html#hero">HOME</a>
                     ·
-                    <a href="#about">ABOUT US</a>
+                    <a href="index.html#about">ABOUT US</a>
                     ·
-                    <a href="#services">THE DATA</a>
+                    <a href="index.html#services">THE DATA</a>
                     ·
-                    <a href="#portfolio">OUR SOLUTIONS</a>
+                    <a href="index.html#portfolio">OUR SOLUTIONS</a>
                     ·
                     <a href="#contact">CONTACT</a>
                 </p>

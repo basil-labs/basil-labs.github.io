@@ -781,13 +781,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .details {
-  height: 50px;
-  background: #65B330;
-  position: absolute;
-  width: 100%;
-  height: 50px;
+height: 50px;
+background: #65B330;
+position: absolute;
+width: 100%;
+height: 50px;
+transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@media all and (max-width: 699px){
+  #portfolio .portfolio-item .details {
+  bottom: 0px;
+}
+}
+
+@media all and (min-width: 699px){
+  #portfolio .portfolio-item .details {
   bottom: -50px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
 }
 
 #portfolio .portfolio-item .details h4 {
