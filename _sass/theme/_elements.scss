@@ -101,6 +101,22 @@
     background-image: -ms-linear-gradient( 0deg, rgb(20, 29, 162) 0%, rgb(139, 62, 251) 100%);
 }
 
+@media screen and (min-width: 992px) {
+    .genric-btn {
+    white-space: nowrap;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 34px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .genric-btn {
+    padding: 10px 34px;
+    }
+}
+
+
 .genric-btn {
     background: #65b133;
     color: $white;
@@ -108,25 +124,23 @@
     display: inline-block;
     z-index: 1;
     max-width: 100%;
-    padding: 0px 34px;
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
     border: 0px;
     text-align: center;
     overflow: hidden;
     vertical-align: middle;
-    white-space: nowrap;
-    height: 50px;
-    line-height: 50px;
     transition: .3s;
     cursor: pointer;
     &:hover {
-        background: #5db821;
+        background: #36d001;
         @extend .d1-gradient-bg;
         color: white;
     }
 }
+
+
 
 .genric-btn2 {
     @extend .d1-gradient-bg;
