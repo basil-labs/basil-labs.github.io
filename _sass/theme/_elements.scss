@@ -102,8 +102,8 @@
 }
 
 .genric-btn {
-    background: $offwhite;
-    color: $title-color;
+    background: #65b133;
+    color: $white;
     position: relative;
     display: inline-block;
     z-index: 1;
@@ -122,14 +122,15 @@
     transition: .3s;
     cursor: pointer;
     &:hover {
+        background: #5db821;
         @extend .d1-gradient-bg;
-        color: $white;
+        color: white;
     }
 }
 
 .genric-btn2 {
     @extend .d1-gradient-bg;
-    color: $white;
+    color: #white;
     position: relative;
     display: inline-block;
     z-index: 1;
@@ -149,14 +150,14 @@
     cursor: pointer;
     @include transition();
     &:hover {
-        background: $offwhite;
-        color: $title-color;
+        background: #93d567;
+        color: white;
     }
 }
 
 .genric-btn3 {
     background-color: #ffffff;
-    color: $title-color;
+    color: $white;
     border: 0px;
     padding: 0px 34px;
     font-weight: 600;
