@@ -64,25 +64,27 @@
                 <div class="nav-wrap d-flex flex-row align-items-center">
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
-                            <li class="menu-has-children">
+                            <li>
                                 <a href="{{ '/#' | relative_url }}">Home</a>
                             </li>
                             <li>
-                                <a href="{{ '#aboutus' | relative_url }}">Our Vision</a>
+                                <a href="{{ '#aboutus' | relative_url }}">Overview</a>
                             </li>
                             <li>
                                 <a href="{{ '#howit' | relative_url }}">How It Works</a>
                             </li>
-                            <li>
-                                <a href="{{ '#verticals' | relative_url }}">Our Verticals</a>
+
+<li class="menu-has-children">
+                                <a class="sf-with-ul">Our Products</a>
+                                <ul style="display: none;">
+                                    <li>
+                                        <a href="basilcx.html">BasilCX Engine</a>
+                                    </li>
+                                    <li>
+                                        <a href="ellaq.html">Ella Q</a>
+                                    </li>
+                                </ul>
                             </li>
-<!--                             <li class="menu-has-children">
-                                {% if page.name == 'blog' %}
-                                <a href="{{ 'blog' | relative_url }}">Blog</a>
-                                {% else %}
-                                <a href="{{ '#blog' | relative_url }}">Blog</a>
-                                {% endif %}
-                            </li> -->
                             <li>
                                 <a href="{{ '#contact' | relative_url }}" style="color: #65b133; font-style: Bold">Let's Chat</a>
                             </li>
