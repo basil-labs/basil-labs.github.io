@@ -2,7 +2,7 @@
 title: Articles Coming Soon!
 author: Basil Team
 date: 2020-02-04 00:00:00
-image: /img/logo_corg.png
+image: /img/Page-0042.png
 layout: post
 ---
 
