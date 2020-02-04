@@ -4,7 +4,7 @@ layout: blog
 
 {% include hero/blog_details.html %}
     <!-- Start main body contents -->
-    <section class="blog-post section-gap">
+    <section class="blog-post section-gap" style="padding-top:80px;padding-bottom: 20px;">
         <div class="details-body">
             <div class="container">
                 <h2 class="head">{{ page.title | escape }}</h2>
@@ -55,5 +55,39 @@ layout: blog
        
             </div>
         </div>
+
+<!-- button floating -->
+<style type="text/css">
+    .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:rgba(41,52,62,0.15);
+    border-color: #65b133;
+    border-width: 2px;
+    border-style: solid;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin-top:.45em;
+}
+</style>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+
+<a href="#" class="float">
+<i class="fa fa-arrow-left my-float" onclick="goBack()"></i>
+</a>
+
     </section>
     <!-- End main body contents -->

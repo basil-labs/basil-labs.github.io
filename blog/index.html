@@ -3,6 +3,11 @@ layout: blog
 name: blog
 ---
 
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+
+
 {% include hero/blog.html %}
 <!-- Start blog posts -->
 <section class="blog-post section-gap">
@@ -11,16 +16,17 @@ name: blog
 
            {% for post in paginator.posts %}
            <div class="col-lg-4 col-md-6">
+            <a href="{{ post.url }}">
             <div class="single-card card">
                {% if post.image %}
                <img class="card-top-img" src="{{ post.image | relative_url }}" alt="Card image cap">
                {% endif %}
                <div class="card-body">
-                <a href="#" class="genric-btn card-btn">{{ post.category | first }}</a>
+<!--                 <a href="#" class="genric-btn card-btn">{{ post.category | first }}</a> -->
                 <p class="mt-25 post-info">
                     <span class="author">
                         <a href="#">{{ post.author }}</a>
-                    </span> on {{ post.date }}
+
                 </p>
                 <div class="mb-15">
                     <a href="{{ post.url }}" class="card-link">
@@ -37,13 +43,14 @@ name: blog
                             </p>
                         </div>
                     </div>
+                </a>
                 </div>
                 {% endfor %}
 
             </div>
 
             <!-- Start Pagination -->
-            <nav aria-label="Page navigation" class="mt-0 mt-lg-3">
+<!--             <nav aria-label="Page navigation" class="mt-0 mt-lg-3">
 
                 {% if paginator.total_pages > 1 %}
                 <ul class="pagination flex justify-content-center" id="blog-post-sidebar">
@@ -93,7 +100,7 @@ name: blog
             </ul>
             {% endif %}
 
-        </nav>
+        </nav> -->
         <!-- End Pagination -->
     </div>
 </section>

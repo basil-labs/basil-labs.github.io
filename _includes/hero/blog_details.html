@@ -2,7 +2,7 @@
     <!-- Start hero-section -->
     <section class="hero-section-blog-details relative">
         <div class="">
-            <img class="blog-img" src="{{ 'img/blog/blog-details-bg.jpg' | relative_url }}" alt="">
+            <img class="blog-img" style="max-height:600px;object-fit: cover;" src="{{ page.image | relative_url }}" alt="">
         </div>
 
         <div class="content">
@@ -10,14 +10,16 @@
                 <div class="row no-margin align-items-center justify-content-between content-wrap">
                     <div class="d-flex align-items-center content-wrap-child">
                         <div class="text">
-                            <a href="#" class="genric-btn">
-                            {{ page.category | first | default: 'uncategorized' }}
-                            </a>
+<!--                             <a href="#" class="genric-btn">
+                            {{ page.category | default: 'Basil Labs Original Article' }}
+                            </a> -->
                         </div>
                         <div class="text">
-                            <div class="text-white">
-                                <p class="mb-0">
-                                    {{ page.autor | default: site.author |  | escape }} on 
+                            <div class="text-white" style="background-color: rgba(41,52,62,0.7);padding: 20px 40px;border-color: #65B133;border-width: 1px;border-style: solid;">
+                                <p class="mb-0" style="font-family: Montserrat;font-size: 1.6em;text-transform: none;">
+                                    BY &nbsp; {{ page.author | default: site.author |  | escape }} 
+                                    <br>
+                                    ON &nbsp;
                                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                                     {{ page.date | date: date_format }}
                                 </p>
