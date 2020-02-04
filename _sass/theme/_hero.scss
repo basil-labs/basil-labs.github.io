@@ -415,9 +415,6 @@
     .hero-section-blog-details {
         .blog-img {
             width: 100%;
-            filter: brightness(50%);
-            -webkit-filter: brightness(50%);
-            -moz-filter: brightness(50%);
             @media(max-width: 991px) {
                 height: 400px;
             }
