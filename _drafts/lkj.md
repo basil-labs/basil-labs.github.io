@@ -12,4 +12,12 @@ When our team read that discrepancy in the the study, we decided to take a close
 
 ![](/uploads/map.png){: width="1185" height="715"}
 
-&nbsp;
+### **At first glance**
+
+Our sample focused on London supermarkets; 35 Asda, 66 Waitrose locations and a handful of Lidl, Marks & Spencer and Sainsbury's locations. Our analysis was powered by BasilCX, our in-house engine that aggregates and transforms online, geolocated data into concise analytics through AI.&nbsp;
+
+Immediately, you're able to see different concentrations of Asda (green dots) and Waitrose (purple dots) across London. Different geographic concentrations suggest different consumer groups, preferences and values.
+
+![](/uploads/topics-all-locations.png){: width="996" height="793"}
+
+Across all locations, we can see that "Staff and Service" was the most frequently mentioned topic by consumers, with nearly twice the number of mentions as "selection," the second-most mentioned topic.
