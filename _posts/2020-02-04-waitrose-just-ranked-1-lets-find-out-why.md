@@ -10,7 +10,7 @@ For a second time, [Waitrose has been ranked the best supermarket in the UK by W
 
 When our team read that discrepancy in the the study, we decided to take a closer look at why Waitrose performed so highly as well as what consumers actually think about Asda.
 
-![](/uploads/map.png){: width="1185" height="715"}
+![](/uploads/map.png){: width="70%"}
 
 ### **At first glance**
 
