@@ -30,19 +30,19 @@ When isolating Asda and Waitrose, we can see a similar focus on the staff, price
 
 The major question our team had was whether Asda and Waitrose were truly so different in consumer experience. In our work, we have consistently found that consumers often find value in different aspects of their shopping experiences. For example, as someone who values the convenience of nearby public transportation or easily-accessible parking above all else, I find myself shopping wherever is most accessible, disregarding, and often content with, differences in price or the freshness of produce.
 
-![](/uploads/asada-v-wairose.png){: width="1637" height="850"}
+![](/uploads/asada-v-wairose.png){: .center-image width="70%"}
 
 What we found matched Which?'s report for certain variables, but not nearly to the extremes that a 1 to 5 scale generates. Similar to Which?'s report, we&nbsp; found that consumers had more positive experiences with the freshness of produce at Waitrose locations, but it was Waitrose's offerings (e.g. deli counter, upstairs dining, pharmacy, bakery) and the staff and service (e.g. friendliness, helpfulness, professionalism, availability) that truly captured positive feedback from consumers.
 
 Interestingly, freshness of produce, while a staple of the Waitrose brand, was not a major differentiator in consumer feedback of the two supermarket chains, suggesting that Asda consumers are more interested in other aspects of their shopping experience, such as the convenience and price-friendliness of Asda locations and satisfied with the freshness of produce levels at Asda locations.
 
-![](/uploads/scatterplot.png){: width="1182" height="867"}
+![](/uploads/scatterplot.png){: .center-image width="70%"}
 
 ### Why this matters
 
 Each of these topics holds different levels of importance to customers, and some are more business-critical than others. For example, improvements in "Staff and Service" may improve in-store consumer experience more rapidly in Asda locations than Waitrose locations. Knowing the ROI of these associations store-by-store helps place managers, marketers and real estate teams make confident, informed decisions on their ad campaigns, location placement and in-store optimization.
 
-![](/uploads/dash.png){: width="1100" height="1011"}
+![](/uploads/dash.png){: .center-image width="70%"}
 
 ### **Take a deeper look**
 
