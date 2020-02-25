@@ -18,11 +18,11 @@ Our sample focused on London supermarkets; 35 Asda, 66 Waitrose locations and a 
 
 Immediately, you're able to see different concentrations of Asda (green dots) and Waitrose (purple dots) across London. Different geographic concentrations suggest different consumer groups, preferences and values.
 
-![](/uploads/topics-all-locations.png){: width="996" height="793"}
+![](/uploads/topics-all-locations.png){: .center-image width="70%"}
 
 Across all locations, we can see that "Staff and Service" was the most frequently mentioned topic by consumers, with nearly twice the number of mentions as "selection," the second-most mentioned topic.
 
-![](/uploads/breakdown-bar.png){: width="1633" height="857"}
+![](/uploads/breakdown-bar.png){: .center-image width="70%"}
 
 ### Asda v. Waitrose
 
