@@ -1,5 +1,5 @@
 ---
-title: lkj
+title: 'Waitrose Just Ranked #1, Let''s Find Out Why'
 author: Basil Team
 date: 2020-02-04 00:00:00
 image: /img/blog/thomas-le-pRJhn4MbsMM-unsplash.jpg
