@@ -8,7 +8,7 @@ layout: post
 
 *What draws consumers to spaces and what do businesses owe their surroundings?*
 
-![](/uploads/img-20180227-172739.jpg){: width="3024" height="4032"}
+![](/uploads/img-20180227-172739.jpg){: .center-image width="70%"}
 
 **People watching is fun and it helps power the businesses&nbsp;**along the Georgetown Waterfront. While the ability to "people watch" is not a easily-quantifiable element of space, identifying and capitalizing on these kinds of intangible neighborhood elements are key in creating vibrant environments for local businesses.
 
@@ -18,7 +18,7 @@ The Georgetown Waterfront is one of the most well-known areas in DC that draws l
 
 ## **At First Glance**
 
-**![](/uploads/map-1.png){: width="1467" height="778"}**
+**![](/uploads/map-1.png){: .center-image width="70%"}**
 
 **Our analysis was powered by BasilCX,**&nbsp;our in-house engine that aggregates and transforms millions of online, geolocated reviews and social media posts into concise analytics through AI. We focused on:
 
@@ -32,7 +32,7 @@ The Georgetown Waterfront is one of the most well-known areas in DC that draws l
 
 *One of my favorite places in DC to people watch is at the Georgetown Waterfront; I just never realized how many other people share this simple joy as well.*
 
-*![](/uploads/park2.png){: width="1227" height="769"}*
+*![](/uploads/park2.png){: .center-image width="70%"}*
 
 **The Georgetown Waterfront Park is the staple of the area,**&nbsp;drawing in people from all walks of life to exercise, spend time with family and friends and relax by the water. When analyzing the top narratives that park visitors mentioned, the quality of the scenery was not only the most mentioned topic across the park, but also the topic with the highest average sentiment score, shown with dark blues on the bar chart above (darker orange reflects negative sentiment). Following "Scenic," the next most positive topics were "Bars and Restaurants Around," which reflects the accessibility of dining options nearby, and "Relax and Lounge," a topic in which visitors describe the relaxed vibe of the park, ability to people watch, and sit and read a book or put in headphones and tune out the bustle of the city.&nbsp;
 
