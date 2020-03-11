@@ -48,15 +48,15 @@ These intangible aspects of an area, its ability to serve as a perfect place to 
 
 *What do businesses owe their environments? How and to whom do they act on this debt?*
 
-![](/uploads/rest.png){: width="1179" height="765"}
+![](/uploads/rest.png){: .center-image width="70%"}
 
-![](/uploads/amc.png){: width="1221" height="787"}
+![](/uploads/amc.png){: .center-image width="70%"}
 
 **The question our team wanted to answer was:&nbsp;**What elements make visitors and consumers return again and again. From our brief overview of consumer experience of the Georgetown Waterfront Park, we began to realize how compelling the holistic "vibe" and atmosphere of the area, not simply just the proximity to water or available outdoor space, contributed to a visitor's experience.
 
 While the bar charts for both the waterside restaurants and the Georgetown AMC theater reflect topic distributions one might expect for their industries, the frequency at which the topic, "Nearby Places," a topic reflecting the availability of shopping and general locations nearby, and "Bar and Restaurants Around," a topic specifically regarding the availability of bars and restaurants, are mentioned demonstrate the ecosystem benefits that businesses in the Georgetown area benefit from one another.&nbsp;
 
-![](/uploads/fiolamarepatio-0-0.jpg){: width="1200" height="800"}
+![](/uploads/fiolamarepatio-0-0.jpg){: .center-image width="70%"}
 
 "By the Water," "Park," and "Scenic" are also topics mentioned frequently and positively across both the restaurants and the theater. In our analyses of other areas in the Greater Washington Metropolitan region, we have not encountered this level of overlap between a location and its environment, particularly for a business like a movie theater, for which attendants tend to focus on elements inside the movie theater rather than outside.
 
@@ -64,17 +64,17 @@ While the bar charts for both the waterside restaurants and the Georgetown AMC t
 
 **These businesses benefit from their location**&nbsp;and proximity to the national park; the park benefits from the collection of businesses surrounding it and the events and offerings they provide. Yet the park was only completed in 2011, and was the result of&nbsp;[many years of advocacy and fundraising.](https://georgetowner.com/articles/2018/05/02/friends-group-keeps-eye-waterfront-park/){: target="_blank"}&nbsp;If these businesses are undoubtedly benefiting from their location, specifically the proximity to the national park, what conceivable obligations do these businesses owe the park and to one other? How can these consumer narratives such as "Nearby Stores," "Outdoor Seating," "With Family and Friends," or "Relax and Lounge" be fostered through formal private-public partnerships and mutual responsibilities to ensure a consistent experience for visitors?
 
-![](/uploads/screenshot-6.png){: width="1040" height="804"}
+![](/uploads/screenshot-6.png){: .center-image width="70%"}
 
 In the&nbsp;[DC Office of Planning's 2010 Retail Action Roadmap](https://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/rasretailroadmap.pdf){: target="_blank"}, the Office details many of the opportunities and challenges facing Washington DC as a whole as well as neighborhood by neighborhood. While the Office's report focuses strongly on direct retail elements that need to be strengthened, such as fostering entrepreneurship in DC retail, the neighborhood sections of the report did not explicitly address public spaces nor the intangible value these spaces offer their surrounding retail locations.
 
-![](/uploads/123.png){: width="2800" height="1800"}
+![](/uploads/123.png){: .center-image width="70%"}
 
 The reason these elements are often not formally included in roadmaps and analyses is because, put simply: it is difficult to quantify what is traditionally analyzed through qualitative means. Nevertheless, these qualitative aspects of a neighborhood are what makes visitors come back again and again.
 
 Qualitative narratives like "Scenic" or "Relax and Lounge" were some of the highest performing narratives across the locations and topics we analyzed, receiving positive average sentiment scores alongside four or five star reviews, suggesting that when visitors interact with these elements of the Waterfront, they have more positive impressions of the area overall.
 
-![](/uploads/4434807117-5cf2d23d78-o.jpg){: width="1955" height="1466"}
+![](/uploads/4434807117-5cf2d23d78-o.jpg){: .center-image width="70%"}
 
 However, maintaining the Waterfront area may be an increasingly costly endeavor. In April 2011, flood waters cost the Waterfront Harbor development $20 million in damages. While areas like The Wharf were planned with future sea-level rise in mind, organizations like&nbsp;[Climate Central have estimated that rising sea levels may impact an estimated $5 billion worth of DC property.](https://www.bisnow.com/washington-dc/news/economic-development/dc-policy-makers-try-to-get-ahead-of-the-wave-102993){: target="_blank"}&nbsp;
 
@@ -84,7 +84,7 @@ However, maintaining the Waterfront area may be an increasingly costly endeavor.
 
 ## Take A Deeper Look
 
-![](/uploads/screenshot-7.png){: width="712" height="671"}
+![](/uploads/screenshot-7.png){: .center-image width="70%"}
 
 We've just scratched the surface on what's possible. If you're interested in taking a closer look at our analysis or want to learn more about how consumers experience your area, connect with us at&nbsp;[Basillabs.org.](https://basillabs.org/#contact){: target="_blank"}
 
