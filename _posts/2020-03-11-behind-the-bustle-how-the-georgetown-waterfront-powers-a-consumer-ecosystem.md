@@ -36,7 +36,7 @@ The Georgetown Waterfront is one of the most well-known areas in DC that draws l
 
 **The Georgetown Waterfront Park is the staple of the area,**&nbsp;drawing in people from all walks of life to exercise, spend time with family and friends and relax by the water. When analyzing the top narratives that park visitors mentioned, the quality of the scenery was not only the most mentioned topic across the park, but also the topic with the highest average sentiment score, shown with dark blues on the bar chart above (darker orange reflects negative sentiment). Following "Scenic," the next most positive topics were "Bars and Restaurants Around," which reflects the accessibility of dining options nearby, and "Relax and Lounge," a topic in which visitors describe the relaxed vibe of the park, ability to people watch, and sit and read a book or put in headphones and tune out the bustle of the city.&nbsp;
 
-![](/uploads/sup-paddleboarding-on-the-potomac-in-georgetown-credit-sam-kittner-georgetown-bid.jpg){: width="800" height="533"}
+![](/uploads/sup-paddleboarding-on-the-potomac-in-georgetown-credit-sam-kittner-georgetown-bid.jpg){: .center-image width="70%"}
 
 As one individual stated about the Waterfront Park,&nbsp;*"I always love going there. So relaxing to people watch, watch boats going by, couples posing for engagement photos, etc."*
 
