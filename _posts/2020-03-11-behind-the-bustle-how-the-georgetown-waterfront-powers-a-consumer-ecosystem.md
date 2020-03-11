@@ -50,9 +50,9 @@ These intangible aspects of an area, its ability to serve as a perfect place to 
 
 ![](/uploads/rest.png){: .center-image width="70%"}
 
-![](/uploads/amc.png){: .center-image width="70%"}
-
 **The question our team wanted to answer was:&nbsp;**What elements make visitors and consumers return again and again. From our brief overview of consumer experience of the Georgetown Waterfront Park, we began to realize how compelling the holistic "vibe" and atmosphere of the area, not simply just the proximity to water or available outdoor space, contributed to a visitor's experience.
+
+![](/uploads/amc.png){: .center-image width="70%"}
 
 While the bar charts for both the waterside restaurants and the Georgetown AMC theater reflect topic distributions one might expect for their industries, the frequency at which the topic, "Nearby Places," a topic reflecting the availability of shopping and general locations nearby, and "Bar and Restaurants Around," a topic specifically regarding the availability of bars and restaurants, are mentioned demonstrate the ecosystem benefits that businesses in the Georgetown area benefit from one another.&nbsp;
 
