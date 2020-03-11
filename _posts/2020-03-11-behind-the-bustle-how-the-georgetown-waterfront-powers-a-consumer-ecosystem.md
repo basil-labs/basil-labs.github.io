@@ -8,8 +8,6 @@ layout: post
 
 *What draws consumers to spaces and what do businesses owe their surroundings?*
 
-![](/uploads/img-20180227-172739.jpg){: .center-image width="70%"}
-
 **People watching is fun and it helps power the businesses&nbsp;**along the Georgetown Waterfront. While the ability to "people watch" is not a easily-quantifiable element of space, identifying and capitalizing on these kinds of intangible neighborhood elements are key in creating vibrant environments for local businesses.
 
 In a time when&nbsp;[CoStar makes troubling assessments](https://www.costar.com/article/1707772974/retail-in-dc-showing-signs-of-weakness-as-sector-undergoes-changes){: target="_blank"}&nbsp;about DC's rising retail vacancies and slowing rent growth, understanding what makes an area special to visitors helps decision makers create vibrant, experiential offerings, making visitors come back again and again.
