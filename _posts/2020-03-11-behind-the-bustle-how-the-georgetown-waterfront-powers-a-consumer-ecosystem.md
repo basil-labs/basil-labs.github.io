@@ -1,6 +1,6 @@
 ---
 title: 'Behind the Bustle: How the Georgetown Waterfront Powers a Consumer Ecosystem'
-author: Theo Goetemann
+author: Basil Team
 date: 2020-03-11 00:00:00
 image: /uploads/img-20180227-172739.jpg
 layout: post
