@@ -2,13 +2,13 @@
 title: >-
   The Nuance of Consumer Preferences: Why Waitrose's #1 Ranking Is More
   Complicated Than You'd Think
-author: Theo Goetemann
+author: Basil Team
 date: 2020-02-04 00:00:00
 image: /img/blog/thomas-le-pRJhn4MbsMM-unsplash.jpg
 layout: post
 ---
 
-Fresh produce, ease of finding products, fast-moving lines, and friendly staff -- These are the qualities that make a top ranking supermarket,&nbsp;[according to a recently released survey](https://www.which.co.uk/news/2019/02/best-and-worst-supermarkets-for-2019/){: target="_blank"}&nbsp;by Which?, a United Kingdom-based consumer reports organization. Topping the charts was Waitrose & Partners, which ranked highly in all categories except value for money. Asda, one of the “big four” supermarkets in the UK, performed the worst in the survey.&nbsp;
+Fresh produce, ease of finding products, fast-moving lines, and friendly staff – These are the qualities that make a top ranking supermarket,&nbsp;[according to a recently released survey](https://www.which.co.uk/news/2019/02/best-and-worst-supermarkets-for-2019/){: target="_blank"}&nbsp;by Which?, a United Kingdom-based consumer reports organization. Topping the charts was Waitrose & Partners, which ranked highly in all categories except value for money. Asda, one of the “big four” supermarkets in the UK, performed the worst in the survey.&nbsp;
 
 Asda, understandably, rejected its lowly status, pointing out that&nbsp;[70% of the Which? Panel surveyed hadn’t visited an Asda in the last six months.](https://www.bbc.com/news/business-51586870){: target="_blank"}&nbsp;“We don’t believe their findings are a true reflection of the experience of our 18 million weekly shoppers,” said an Asda spokesperson.
 
@@ -26,7 +26,7 @@ Our analysis was powered by BasilCX, our in-house engine that aggregates and tra
 * 66 Waitrose&nbsp;
 * 31 Lidl, Little Waitrose & Partners, Marks & Spencer and Sainsbury's locations.
 
-We visualized the locations of each supermarket with different colored dots -- purple for Waitrose, green for Asda, blue for Lidl, orange for Marks & Spencer, red for Sainsbury's.
+We visualized the locations of each supermarket with different colored dots – purple for Waitrose, green for Asda, blue for Lidl, orange for Marks & Spencer, red for Sainsbury's.
 
 ![](/uploads/topics-all-locations.png){: .center-image width="70%"}
 
