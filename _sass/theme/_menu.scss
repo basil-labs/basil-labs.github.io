@@ -33,6 +33,10 @@ background: linear-gradient(175deg, rgba(120,144,41,0.5) 0%, rgba(255,255,255,0)
 }
 
 
+
+
+
+
 #header.header-scrolled {
     transition: all 0.5s;
     background: $white;
@@ -94,6 +98,17 @@ background: linear-gradient(175deg, rgba(120,144,41,0.5) 0%, rgba(255,255,255,0)
 --------------------------------------------------------------*/
 
 /* Nav Menu Essentials */
+
+
+@media (max-width: 768px) {
+.hidenavmobile {
+    display: none !important;
+}
+}
+
+
+
+
 
 .nav-menu,
 .nav-menu * {
