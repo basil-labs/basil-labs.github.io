@@ -37,6 +37,10 @@ background: linear-gradient(175deg, rgba(120,144,41,0.5) 0%, rgba(255,255,255,0)
 
 
 
+
+
+
+
 #header.header-scrolled {
     transition: all 0.5s;
     background: $white;
@@ -106,6 +110,11 @@ background: linear-gradient(175deg, rgba(120,144,41,0.5) 0%, rgba(255,255,255,0)
 }
 }
 
+@media (min-width: 768px) {
+.shownavmobile {
+    display:none !important;
+}
+}
 
 
 
@@ -275,6 +284,7 @@ background: linear-gradient(175deg, rgba(120,144,41,0.5) 0%, rgba(255,255,255,0)
     color: $black;
     font-weight: 900;
 }
+
 
 @media (max-width: 991px) {
     #mobile-nav-toggle {

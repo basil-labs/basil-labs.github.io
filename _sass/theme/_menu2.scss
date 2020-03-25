@@ -19,9 +19,16 @@
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+
 }
 
+@media (min-width: 991px) {
+  #header2 {
+    background:rgb(255,255,255);
+  }
+}
 
+@media (min-width: 991px) {
 #header2.header-scrolled{
   transition: all 0.5s;
   background: $white;
@@ -37,6 +44,7 @@
   .nav-menu > a {
     color:$black!important;
   }
+}
 }
 
 #header2 #logo h1 {
