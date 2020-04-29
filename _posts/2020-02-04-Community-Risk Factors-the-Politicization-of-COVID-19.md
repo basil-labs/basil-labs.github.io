@@ -1,6 +1,6 @@
 ---
 title: >-
-  Life Expectancy, Trump, and the Future of Rural America
+  Community Risk Factors & the Politicization of COVID-19
 author: Basil Team
 date: 2020-04-27 00:00:00
 image: /img/posts/walking.png
