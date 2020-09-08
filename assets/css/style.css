@@ -1376,7 +1376,7 @@ General Styles - Owlcarousel
 }
 
 .titan-title-size-4 {
-  letter-spacing: 12px;
+  letter-spacing: 6px;
   font-weight: 400;
   font-size: 48px;
   line-height: 1.3em;
@@ -2943,6 +2943,7 @@ Google map
     text-align: left;
     position: absolute;
     top: 20%;
+    height: 90%;
     /* margin-left: -5%; */
     /* top: 50%; */
     /* transform: translateY(-50%); */
@@ -3090,7 +3091,15 @@ Google map
   /* margin-left: 9em; */
   /* margin: 0 auto; */
   }
-
+.row-news {
+  padding: 20px 0 0 0;
+  position: absolute;
+  bottom: 20em;
+}
+.row-news-2 {
+  position: absolute;
+  bottom: 0;
+}
 }
 
 @media only screen and (max-width: 900px) {
@@ -3103,6 +3112,9 @@ Google map
   /* margin: 0 auto; */
   margin-left: -15px;
   }
+.row-news {
+  padding: 18% 0 0 0;
+}
 }
 
 @media only screen and (min-width: 1400px){
@@ -3118,6 +3130,24 @@ Google map
   margin-left: -20em;
   width:70%;
 }
+.row-news {
+  padding: 18% 0 0 0;
+}
 }
 
 
+
+
+@media only screen and (min-width: 1100px) {
+  .caption-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    height: 100%;
+    /* margin-left: -5%; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    color:#333;
+  }
