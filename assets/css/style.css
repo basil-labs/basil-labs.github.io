@@ -1526,7 +1526,7 @@ Google map
 	Services & Features
 --------------------------------------------------------------*/
 .features-item {
-  margin: 20px 0;
+  margin: 0.3em 0;
   text-align: center;
   /* height: 3em; */
 }
@@ -3006,7 +3006,7 @@ Google map
     vertical-align: middle;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 38%;
     transform: translateY(-50%);
     color:#333;
   }
@@ -3065,6 +3065,9 @@ Google map
   position: absolute;
   /* z-index: -9999999; */
 }
+.title-font-resize {
+  font-size: 2.9em;
+}
 }
 
 
@@ -3080,6 +3083,9 @@ Google map
   /* transform: translateY(-50%); */
   color: #333;
 }
+.title-font-resize {
+  font-size: 3.8em;
+}
 }
 
 
@@ -3093,7 +3099,7 @@ Google map
   /* margin: 0 auto; */
   }
 .row-news {
-  padding: 20px 0 0 0;
+  padding: 0.8em 0 2.5em 0;
   position: absolute;
   bottom: 11em;
 }
@@ -3103,6 +3109,9 @@ Google map
 }
 .img-right-wid {
   width: 40%
+}
+.title-font-resize {
+  font-size: 3.5;
 }
 }
 
