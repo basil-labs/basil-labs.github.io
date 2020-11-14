@@ -1,4 +1,3 @@
-console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
 
 /* ---------------------------------------------- /*
  * Preloader
@@ -44,6 +43,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          /* ---------------------------------------------- */
 
         var homeSection = $('.home-section'),
+            homeSectionTwo = $('.home-section-two'),
             navbar      = $('.navbar-custom'),
             navHeight   = navbar.height(),
             worksgrid   = $('#works-grid'),
@@ -55,7 +55,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         }
 
         buildHomeSection(homeSection);
-        navbarAnimation(navbar, homeSection, navHeight);
+        navbarAnimation(navbar, homeSection, homeSectionTwo, navHeight);
         navbarSubmenu(width);
         hoverDropdown(width, mobileTest);
 
@@ -67,7 +67,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         $(window).scroll(function() {
             effectsHomeSection(homeSection, this);
-            navbarAnimation(navbar, homeSection, navHeight);
+            navbarAnimation(navbar, homeSection, homeSectionTwo, navHeight);
         });
 
         /* ---------------------------------------------- /*
@@ -153,9 +153,9 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Transparent navbar animation
          /* ---------------------------------------------- */
 
-        function navbarAnimation(navbar, homeSection, navHeight) {
+        function navbarAnimation(navbar, homeSection, homeSectionTwo, navHeight) {
             var topScroll = $(window).scrollTop();
-            if (navbar.length > 0 && homeSection.length > 0) {
+            if (navbar.length > 0 && (homeSection.length > 0 || homeSectionTwo.length > 0)) {
                 if(topScroll >= navHeight) {
                     navbar.removeClass('navbar-transparent');
                 } else {
