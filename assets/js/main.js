@@ -463,14 +463,16 @@
                     type: "POST",
                     data: postData,
                     success: function (data) {
-                        $cfResponse.html(data);
-                        $cfsubmit.text(cfsubmitText);
-                        $('#contactForm input[name=name]').val('');
-                        $('#contactForm input[name=email]').val('');
-                        $('#contactForm textarea[name=message]').val('');
+                        // $cfResponse.html(data);
+                        // $cfsubmit.text(cfsubmitText);
+                        // $('#contactForm input[name=fname]').val('');
+                        // $('#contactForm input[name=lname]').val('');
+                        // $('#contactForm input[name=email]').val('');
+                        // $('#contactForm input[name=organization]').val('');
+                        // $('#contactForm textarea[name=message]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurd! Please try again");
+                        alert("Error occurred! Please try again");
                     }
                 });
 
