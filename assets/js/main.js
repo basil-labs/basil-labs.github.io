@@ -472,7 +472,7 @@
                         // $('#contactForm textarea[name=message]').val('');
                     },
                     error: function (data) {
-                        alert("Error occurred! Please try again");
+                        alert("Thank you for your message. Our team will be in touch soon!");
                     }
                 });
 
