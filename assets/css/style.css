@@ -1221,7 +1221,6 @@ General Styles - Owlcarousel
 --------------------------------------------------------------*/
 
 .navbar-custom {
-  background-color: #f3f2ed;
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -3211,3 +3210,16 @@ Google map
 
     .text-muted {
   color: #6c757d !important; }
+
+
+/*#nav-blue {
+   background-color:rgb(217 234 233);
+}
+
+#nav-tan {
+    background-color: #f3f2ed;
+}
+
+#nav-white {
+  background-color: #fff;
+}*/
