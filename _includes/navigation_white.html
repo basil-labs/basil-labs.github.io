@@ -32,20 +32,33 @@
 //use window.scrollY
 var scrollpos = window.scrollY;
 var header = document.getElementById("nav-id");
-
+var nav_col = document.getElementById("navbar-collapse");
+var w = window.innerWidth;
+if (w < 770){
+    add_class_on_scroll();
+    console.log("added header")
+}
+console.log(w);
 function add_class_on_scroll() {
     header.classList.add("added_header");
+    nav_col.classList.add("added_header");
+
 }
 
 function remove_class_on_scroll() {
     header.classList.remove("added_header");
+    nav_col.classList.remove("added_header");
 }
 
 window.addEventListener('scroll', function(){ 
     //Here you forgot to update the value
     scrollpos = window.scrollY;
 
-    if(scrollpos > 10){
+    if (w < 992){
+        add_class_on_scroll();
+        console.log("added header")
+    }
+    else if (scrollpos > 10){
         add_class_on_scroll();
     }
     else {
