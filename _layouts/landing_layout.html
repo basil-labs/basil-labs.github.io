@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    {% include head.html %}
+    <title>Basil Labs | {{ page.title }}</title>
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60" style="overflow: hidden;">
+    <main>
+        <div class="page-loader">
+            <div class="loader"></div>
+        </div>
+        {% include landing_body.html %}
+        {{ content }}
+        {% include scripts.html %}
+</body>
+
+</html>
