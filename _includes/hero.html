@@ -1,0 +1,168 @@
+<!-- H E R O -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#typewriteText').typewrite({
+            blinkingCursor: false,
+            showCursor:false,
+            continuous:true,
+    cursor: '|',
+        actions: [
+            {speed: 22},
+            {type: 'We help marketing agencies quantify consumer behavior. '},
+            {speed: 40},
+            {select: {from: 8, to: 55}},
+            {delay: 200},
+            {remove: {num: 47, type: 'whole'}},
+            {speed: 22},
+            {type: 'brokers track real-time pedestrian traffic. '},
+            {speed: 40},
+            {select: {from: 8, to: 52}},
+            {delay: 200},
+            {remove: {num: 44, type: 'whole'}},
+            {speed: 22},
+            {type: 'retail chains benchmark their locations against competitors. '},
+            {speed: 40},
+            {select: {from: 8, to: 69}},
+            {delay: 200},
+            {remove: {num: 61, type: 'whole'}},
+            {speed: 22},
+            {type: 'cities quantify the placemaking elements that make them unique. '},
+        ]
+    });
+});
+</script>
+
+
+<section id="hero" class="hero-background">
+    <div class="container">
+        <div class="row row-top-padding-px no-gutters">
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 content-box hero-content">
+                <!-- <img src="images/iphone.png" class="img-fluid" alt="Demo image"> -->
+                <div class="video-push-up" style="margin-top:-15px;text-align: center;">
+                    <video class="hero-video" autoplay muted loop id="city">
+                        <source src="images/city.mp4" type="video/mp4">
+                    </video>
+                    <!-- <img src="images/city2.gif" class="hero-video" /> -->
+                </div>
+            </div>
+            <div class="col-md-5 content-box hero-content hero-text-right mbl-centered">
+                <span>Qualitative Data Quantified</span>
+                <h1>Where Your Consumers Go <b>And What They Value</b></h1>
+                <p>The only silver bullet is open, quantified feedback from the people you serve.</p>
+                <a href="datasets.html" class="btn btn-outline">Preview Data</a>
+                <a href="contact.html" class="btn btn-regular" style="margin-left:8px;">Contact Sales</a>
+            </div>
+        </div>
+        <div class="row no-gutters" style="text-align: center;max-width: 1100px; margin: auto;padding-top: 20px;">
+            {% for image in page.news_org_imgs %}
+            <div class="col-3" style="padding: 30px 0px">
+                <img src="{{ image.image_path }}" alt="logo" style="height:2.9em" />
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row row-top-padding-extra-px center-auto no-gutters">
+            <div class="col">
+                <div class="container" class="center-auto">
+                    <div class="row no-gutters">
+                        <div class="col-12 center-auto">
+                            <p class="center-auto" style="text-align: center!important"><i>Not everything that counts can be counted,
+                                    <br>
+                                    and not everything that can be counted counts.</i></p>
+                        </div>
+                    </div>
+                    <div class="center-auto">
+                        <div class="vertical-line"></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-12 center-auto" style="min-height: 120px;">
+                            <div id="typewriteText"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-top-padding-extra-px no-gutters">
+            <div class="col">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-md-7 col-lg-7 center-auto">
+                            <img src="images/sentiments-site.png" class="hero-video" style="margin-top: -2%" />
+                        </div>
+                        <div class="col-md-5 content-box hero-content hero-text-right mbl-centered">
+                            <span>Millions of Data Points Synthesized</span>
+                            <h1>Crack the <b>Consumer Experience Puzzle</b></h1>
+                            <p style="font-size: 18px">Through responsible, purposeful AI technologies, we pioneer new ways of capturing consumer intelligence to help organizations expand and optimize their locations and marketing strategies.</p>
+                            <a href="{{site.baseurl}}/faq.html" class="btn btn-regular-dark-green">Read About Our Mission</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style type="text/css">
+/* ==============================================
+   4. Hero
+===============================================*/
+
+#typewriteText span {
+    color: white!important;
+    font-size: 20px;
+}
+.vertical-line {
+    border-left: 1px solid white;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: auto;
+    margin: 20px 0px;
+}
+
+.hero-background {
+    background-image: url(images/lines.png);
+    background-size: cover;
+}
+
+#hero {
+    background-color: #16161D;
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#hero span {
+    font-weight: 400;
+    color: #58db5c;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.hero-video {
+    max-width: 100%;
+    object-fit: contain;
+    width: 90%;
+}
+
+
+@media (max-width: 991.98px) {
+    .hero-text-right {
+        padding-top: 40px;
+    }
+}
+</style>
+<!-- E N D  H E R O -->

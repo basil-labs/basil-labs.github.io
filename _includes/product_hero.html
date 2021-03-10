@@ -1,0 +1,123 @@
+<!-- H E R O -->
+<section id="product-hero" class="hero-background">
+    <div class="container" style="max-width: 900px">
+        <div class="row">
+            <div class="col content-box hero-content center-auto" style="text-align: -webkit-center;">
+                <span style="font-size: 20px;">{{page.title}}</span>
+                <h1 style="max-width: 700px;">{{page.section1-head}}</b></h1>
+                <p style="max-width: 700px;padding-top: 20px;font-size: 20px;">{{page.section1-sub}}</p>
+                <p style="visibility: {{page.ap-visibility}};padding-top:30px;">A joint solution built together with our partner <a href="https://www.areaprobe.com/" target="_blank" style="color: #4bff50;">AreaProbe</a></p>
+                <!-- <img src="images/iphone.png" class="img-fluid" alt="Demo image"> -->
+                <div class="sector-img" style="margin-top:-15px;text-align: center;">
+                    <video muted class="hero-video" autoplay loop id="city">
+                        <source src="{{page.section1-img}}" type="video/mp4">
+                    </video>
+                    <!-- <img src="{{page.section1-img}}" class="hero-video" /> -->
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top:80px;">
+            <div class="col content-box hero-content center-auto">
+                <div  style="text-align: -webkit-center;">
+                <h1 style="max-width: 500px; line-height: 50px;" >{{page.section2-head}}</h1>
+            </div>
+                <div class="row" style="padding-top: 50px;">
+                    <div class="col-md-6 col-lg-6">
+                        <img src="{{page.section2-img | absolute_url }}" class="hero-video" style="max-height: 400px; border-radius: 10px;"/>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="row" style="padding-bottom: 15px;">
+                            <div class="col" style="text-align: left;text-align-last: left;">
+                                <h3 style="max-width: 700px;margin-bottom: 10px;font-size: 30px;">{{page.s2-feature1-title}}</h3>
+                                <p style="max-width: 700px;font-size: 16px;">{{page.s2-feature1-sub}}</p>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 15px;">
+                            <div class="col" style="text-align: left;text-align-last: left;">
+                                <h3 style="max-width: 700px;margin-bottom: 10px;font-size: 30px;padding-top: 25px;">{{page.s2-feature2-title}}</h3>
+                                <p style="max-width: 700px;font-size: 16px;">{{page.s2-feature2-sub}}</p>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 15px;">
+                            <div class="col" style="text-align: left;text-align-last: left;">
+                                <h3 style="max-width: 700px;margin-bottom: 10px;font-size: 30px;padding-top: 25px;">{{page.s2-feature3-title}}</h3>
+                                <p style="max-width: 700px;font-size: 16px;">{{page.s2-feature3-sub}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style type="text/css">
+/* ==============================================
+   4. Hero
+===============================================*/
+
+#extra-two-features p {
+    color:#333;
+}
+.sector-img {
+    padding-top: 80px;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: auto;
+    margin: 20px 0px;
+}
+
+.hero-background {
+    background-image: url(images/lines.png);
+    background-size: cover;
+}
+
+#product-hero {
+    background-color: #16161D;
+    min-height: 100vh;
+    padding-bottom:150px;
+}
+
+#product-hero h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#product-hero h3 {
+    color:white;
+}
+#product-hero p {
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#product-hero span {
+    font-weight: 400;
+    color: #58db5c;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.hero-video {
+    max-width: 100%;
+    object-fit: contain;
+    /*width: 90%;*/
+}
+
+
+@media (max-width: 991.98px) {
+    .hero-text-right {
+        padding-top: 40px;
+    }
+}
+</style>

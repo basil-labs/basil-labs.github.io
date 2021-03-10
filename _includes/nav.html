@@ -1,0 +1,152 @@
+<!-- N A V B A R -->
+<nav id="navbar" class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+    <span class="iconify navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-icon="ion:list-outline" data-inline="false" style="height:1.2em;"></span>
+    <span class="icon ion-md-menu"></span>
+    <a href="{{site.baseurl}}/">
+        <img src="{{ "/images/logo.png"| absolute_url }}" class="img-fluid nav-logo-mobile logo-img" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+            <a href="{{site.baseurl}}/">
+                <img src="{{ "/images/logo.png"| absolute_url }}" class="img-fluid nav-logo-desktop logo-img" alt="Company Logo">
+            </a>
+            <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                <li class="dropdown nav-item nav-custom-link"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="{{site.baseurl}}/index.html#marketing">Products <span class="caret"></span><i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{site.baseurl}}/basilcx.html">BasilCX</a></li>
+                        <li><a href="{{site.baseurl}}/ella.html">Ella</a></li>
+                        <li><a href="{{site.baseurl}}/catalyst.html">Catalyst</a></li>
+                    </ul>
+                </li>
+<!--                 <li class="dropdown nav-item nav-custom-link"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="{{site.baseurl}}/index.html#marketing">Sectors <span class="caret"></span><i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{site.baseurl}}/sectors.html">Cities & Branding</a></li>
+                        <li><a href="{{site.baseurl}}/sectors.html">Marketing Agencies</a></li>
+                        <li><a href="{{site.baseurl}}/sectors.html">Planning & Design</a></li>
+                        <li><a href="{{site.baseurl}}/sectors.html">Retail Chains</a></li>
+                        <li><a href="{{site.baseurl}}/sectors.html">Commercial Real Estate</a></li>
+                        <li><a href="{{site.baseurl}}/sectors.html">Travel & Tourism</a></li>
+
+                    </ul>
+                </li> -->
+                <li class="nav-item nav-custom-link ">
+                    <a class="nav-link" href="{{site.baseurl}}/faq.html">FAQ <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+                <li class="nav-item nav-custom-link last-nav-li-before-button last-nav-li-before-button">
+                    <a class="nav-link" href="{{site.baseurl}}/datasets.html">Datasets <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+                <li class="nav-item nav-custom-link btn btn-demo-small ">
+                    <a class="nav-link" href="{{site.baseurl}}/contact.html">Contact Sales <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<style type="text/css">
+/* ==============================================
+   2. Navbar 
+===============================================*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+}
+
+ul .dropdown-menu {
+    background-color: #16161D;
+}
+
+ul .dropdown-menu li {
+    color: white;
+    font-size: 0.9em;
+    padding: 5px 10px;
+}
+
+.nav-item.nav-custom-link.btn:hover {
+    background-color: #00d107;
+    color: #ffffff;
+}
+
+.ion-md-menu {
+    color: white;
+}
+
+.logo-img {
+    max-height: 38px;
+}
+
+.custom-navbar {
+    /*background-color: #16161D !important;*/
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .09);
+    height: 70px;
+    max-height: 70px;
+}
+
+.navbar-toggler {
+    font-size: 38px;
+    background-color: transparent;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .nav-link {
+        font-size: 0.9em;
+        color: white;
+    }
+}
+
+.nav-custom-link {
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: .05em;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+
+.navbar a {
+    color: #b6c0cb;
+}
+
+.nav-right {
+    float: right;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #16161D;
+    }
+
+    .nav-item.nav-custom-link.btn {
+        color: white !important;
+        background-color: #16161d;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .last-nav-li-before-button {
+        padding-right: 10px;
+    }
+
+    .nav-item.nav-custom-link.btn {
+        color: white !important;
+        background-color: #17B81C;
+    }
+}
+</style>
+<script type="text/javascript">
+$(window).scroll(function() {
+    if ($(window).scrollTop() >= 50) {
+        $('.navbar').css('background-color', '#16161D');
+    } else {
+        $('.navbar').css('background-color', 'transparent');
+    }
+});
+</script>
+<!-- E N D  N A V B A R -->
