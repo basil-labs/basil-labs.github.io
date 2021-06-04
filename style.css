@@ -213,7 +213,8 @@ section {
 
 .btn-demo-small {
 	font-size: 12px;
-	background-color: #6772e5;
+	background-color: pink;
+	/*background-color: #6772e5;*/
 	padding: 1px 4px;
 }
 
@@ -222,6 +223,20 @@ section {
 }
 
 .btn-demo-small a {
+	color: #ffffff!important;
+}
+
+.btn-demo-signin {
+	font-size: 12px;
+	background-color: darkgreen!important;
+	padding: 1px 4px;
+}
+
+.btn-demo-signin:hover {
+	background-color: #636ee1;
+}
+
+.btn-demo-signin a {
 	color: #ffffff!important;
 }
 
