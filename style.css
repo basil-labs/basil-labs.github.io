@@ -189,6 +189,7 @@ section {
 	letter-spacing: .1em;
 	margin-top: 25px;
 	display: inline-block;
+
 }
 
 .btn-regular:hover {
@@ -213,9 +214,9 @@ section {
 
 .btn-demo-small {
 	font-size: 12px;
-	background-color: pink;
 	/*background-color: #6772e5;*/
-	padding: 1px 4px;
+	padding: 1px 3px;
+	border-radius: 5% 0 0 5% !important;
 }
 
 .btn-demo-small:hover {
@@ -230,10 +231,11 @@ section {
 	font-size: 12px;
 	background-color: darkgreen!important;
 	padding: 1px 4px;
+	border-radius: 0 5% 5% 0 !important;
 }
 
 .btn-demo-signin:hover {
-	background-color: #636ee1;
+	background-color: forestgreen!important;
 }
 
 .btn-demo-signin a {
@@ -270,6 +272,10 @@ section {
 .btn-outline:hover {
 	border-color: #00d107;
 	color: #ffffff;
+}
+
+.navbar-toggler {
+	background-color: #00d107 !important;
 }
 
 
