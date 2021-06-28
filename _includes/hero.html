@@ -99,6 +99,13 @@ $(document).ready(function(){
                 </div>
             </div>
         </div>
+        <div class="row no-gutters" style="justify-content: space-around;text-align: center; align-items:center; max-width: 1100px; margin: auto;padding-top: 20px;">
+            {% for image in page.past_clients %}
+            <div class="col" style="padding: 20px 0px">
+                <img src="{{ image.image_path }}" alt="logo" style="width:90%" />
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
 <style type="text/css">
